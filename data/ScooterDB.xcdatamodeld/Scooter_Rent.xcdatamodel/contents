@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G83" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="RentDB" representedClassName="RentDB" syncable="YES" codeGenerationType="class">
+        <attribute name="date_start" optional="YES" attributeType="String"/>
+        <attribute name="date_stop" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ScooterDB" representedClassName="ScooterDB" syncable="YES" codeGenerationType="class">
+        <attribute name="battery_level" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date_last_mantinance" optional="YES" attributeType="String"/>
+        <attribute name="km_use" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="on_rent" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="RentDB" positionX="-45" positionY="72" width="128" height="74"/>
+        <element name="ScooterDB" positionX="-54" positionY="-9" width="128" height="164"/>
+    </elements>
+</model>

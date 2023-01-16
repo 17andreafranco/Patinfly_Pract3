@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A516C688296DBD4300ECA210 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516C687296DBD4300ECA210 /* Status.swift */; };
+		A516C692296DE8E900ECA210 /* ServerRent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516C691296DE8E900ECA210 /* ServerRent.swift */; };
+		A51D348C28ECA2C8005AB3F4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D348B28ECA2C8005AB3F4 /* LoginViewModel.swift */; };
+		A51D348E28ECAC53005AB3F4 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D348D28ECAC53005AB3F4 /* SplashScreen.swift */; };
+		A5233995297547DB00194079 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5233994297547DB00194079 /* NetworkError.swift */; };
+		A52339972975482800194079 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52339962975482800194079 /* Constant.swift */; };
+		A525A75E2908569F00E68AF0 /* ScooterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A525A75D2908569F00E68AF0 /* ScooterDetailView.swift */; };
+		A546E13328ECB4F900C63031 /* scooters.json in Resources */ = {isa = PBXBuildFile; fileRef = A546E13228ECB4F900C63031 /* scooters.json */; };
+		A546E13528ECB55100C63031 /* Scooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546E13428ECB55100C63031 /* Scooter.swift */; };
+		A55182B028DA2F9A00760B2B /* PatinflyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55182AF28DA2F9A00760B2B /* PatinflyApp.swift */; };
+		A55182B228DA2F9A00760B2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55182B128DA2F9A00760B2B /* ContentView.swift */; };
+		A55182B428DA2F9C00760B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55182B328DA2F9C00760B2B /* Assets.xcassets */; };
+		A55182B728DA2F9C00760B2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55182B628DA2F9C00760B2B /* Preview Assets.xcassets */; };
+		A55182C128DA2F9C00760B2B /* PatinflyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55182C028DA2F9C00760B2B /* PatinflyTests.swift */; };
+		A55182CB28DA2F9C00760B2B /* PatinflyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55182CA28DA2F9C00760B2B /* PatinflyUITests.swift */; };
+		A55182CD28DA2F9C00760B2B /* PatinflyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55182CC28DA2F9C00760B2B /* PatinflyUITestsLaunchTests.swift */; };
+		A55182DD28DA31D400760B2B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55182DC28DA31D400760B2B /* LoginView.swift */; };
+		A5744B81292D478B00E00B6E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5744B80292D478B00E00B6E /* LocationManager.swift */; };
+		A5744B86292D5BE200E00B6E /* LocationTGN.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A5744B85292D5BE200E00B6E /* LocationTGN.gpx */; };
+		A57F47A82936857100F020C8 /* ScooterDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A57F47A62936857100F020C8 /* ScooterDB.xcdatamodeld */; };
+		A57F47AA293687BB00F020C8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57F47A9293687BB00F020C8 /* DataController.swift */; };
+		A583B78828E3666F000BA110 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A583B78728E3666F000BA110 /* Credentials.swift */; };
+		A583B78A28E36C90000BA110 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A583B78928E36C90000BA110 /* APIService.swift */; };
+		A583B78E28E36F3C000BA110 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A583B78D28E36F3C000BA110 /* Authentication.swift */; };
+		A5D62966296C3E22009E59EA /* ScooterServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D62965296C3E22009E59EA /* ScooterServer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A55182BD28DA2F9C00760B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55182A428DA2F9900760B2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55182AB28DA2F9900760B2B;
+			remoteInfo = Patinfly;
+		};
+		A55182C728DA2F9C00760B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55182A428DA2F9900760B2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55182AB28DA2F9900760B2B;
+			remoteInfo = Patinfly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A516C687296DBD4300ECA210 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		A516C691296DE8E900ECA210 /* ServerRent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerRent.swift; sourceTree = "<group>"; };
+		A51D348B28ECA2C8005AB3F4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A51D348D28ECAC53005AB3F4 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		A5233994297547DB00194079 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		A52339962975482800194079 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A525A75D2908569F00E68AF0 /* ScooterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterDetailView.swift; sourceTree = "<group>"; };
+		A546E13228ECB4F900C63031 /* scooters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scooters.json; sourceTree = "<group>"; };
+		A546E13428ECB55100C63031 /* Scooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scooter.swift; sourceTree = "<group>"; };
+		A55182AC28DA2F9A00760B2B /* Patinfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patinfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55182AF28DA2F9A00760B2B /* PatinflyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinflyApp.swift; sourceTree = "<group>"; };
+		A55182B128DA2F9A00760B2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A55182B328DA2F9C00760B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A55182B628DA2F9C00760B2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A55182BC28DA2F9C00760B2B /* PatinflyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatinflyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55182C028DA2F9C00760B2B /* PatinflyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinflyTests.swift; sourceTree = "<group>"; };
+		A55182C628DA2F9C00760B2B /* PatinflyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatinflyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55182CA28DA2F9C00760B2B /* PatinflyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinflyUITests.swift; sourceTree = "<group>"; };
+		A55182CC28DA2F9C00760B2B /* PatinflyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinflyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A55182DC28DA31D400760B2B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A5744B80292D478B00E00B6E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A5744B85292D5BE200E00B6E /* LocationTGN.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LocationTGN.gpx; sourceTree = "<group>"; };
+		A5744B87292D5C5800E00B6E /* LocationTGN.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = LocationTGN.gpx; path = MapLocation/LocationTGN.gpx; sourceTree = "<group>"; };
+		A57F47A72936857100F020C8 /* Scooter_Rent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scooter_Rent.xcdatamodel; sourceTree = "<group>"; };
+		A57F47A9293687BB00F020C8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		A583B78728E3666F000BA110 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		A583B78928E36C90000BA110 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A583B78D28E36F3C000BA110 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		A5D62965296C3E22009E59EA /* ScooterServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterServer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A55182A928DA2F9900760B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55182B928DA2F9C00760B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55182C328DA2F9C00760B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A546E12F28ECB4AF00C63031 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				A546E13228ECB4F900C63031 /* scooters.json */,
+				A57F47A62936857100F020C8 /* ScooterDB.xcdatamodeld */,
+				A57F47A9293687BB00F020C8 /* DataController.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		A55182A328DA2F9900760B2B = {
+			isa = PBXGroup;
+			children = (
+				A5744B87292D5C5800E00B6E /* LocationTGN.gpx */,
+				A5744B7F292D477700E00B6E /* MapLocation */,
+				A546E12F28ECB4AF00C63031 /* data */,
+				A55182AE28DA2F9A00760B2B /* Patinfly */,
+				A55182BF28DA2F9C00760B2B /* PatinflyTests */,
+				A55182C928DA2F9C00760B2B /* PatinflyUITests */,
+				A55182AD28DA2F9A00760B2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A55182AD28DA2F9A00760B2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55182AC28DA2F9A00760B2B /* Patinfly.app */,
+				A55182BC28DA2F9C00760B2B /* PatinflyTests.xctest */,
+				A55182C628DA2F9C00760B2B /* PatinflyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55182AE28DA2F9A00760B2B /* Patinfly */ = {
+			isa = PBXGroup;
+			children = (
+				A5927E6429085A6100BD939B /* ScooterView */,
+				A55182DB28DA31A700760B2B /* Login */,
+				A583B78B28E36F1C000BA110 /* Model */,
+				A55182AF28DA2F9A00760B2B /* PatinflyApp.swift */,
+				A55182B128DA2F9A00760B2B /* ContentView.swift */,
+				A51D348D28ECAC53005AB3F4 /* SplashScreen.swift */,
+				A55182B328DA2F9C00760B2B /* Assets.xcassets */,
+				A55182B528DA2F9C00760B2B /* Preview Content */,
+			);
+			path = Patinfly;
+			sourceTree = "<group>";
+		};
+		A55182B528DA2F9C00760B2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A55182B628DA2F9C00760B2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A55182BF28DA2F9C00760B2B /* PatinflyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A55182C028DA2F9C00760B2B /* PatinflyTests.swift */,
+			);
+			path = PatinflyTests;
+			sourceTree = "<group>";
+		};
+		A55182C928DA2F9C00760B2B /* PatinflyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A55182CA28DA2F9C00760B2B /* PatinflyUITests.swift */,
+				A55182CC28DA2F9C00760B2B /* PatinflyUITestsLaunchTests.swift */,
+			);
+			path = PatinflyUITests;
+			sourceTree = "<group>";
+		};
+		A55182DB28DA31A700760B2B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A55182DC28DA31D400760B2B /* LoginView.swift */,
+				A583B78728E3666F000BA110 /* Credentials.swift */,
+				A583B78928E36C90000BA110 /* APIService.swift */,
+				A51D348B28ECA2C8005AB3F4 /* LoginViewModel.swift */,
+				A5233994297547DB00194079 /* NetworkError.swift */,
+				A52339962975482800194079 /* Constant.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A5744B7F292D477700E00B6E /* MapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				A5744B80292D478B00E00B6E /* LocationManager.swift */,
+				A5744B85292D5BE200E00B6E /* LocationTGN.gpx */,
+			);
+			path = MapLocation;
+			sourceTree = "<group>";
+		};
+		A583B78B28E36F1C000BA110 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A583B78D28E36F3C000BA110 /* Authentication.swift */,
+				A546E13428ECB55100C63031 /* Scooter.swift */,
+				A5D62965296C3E22009E59EA /* ScooterServer.swift */,
+				A516C687296DBD4300ECA210 /* Status.swift */,
+				A516C691296DE8E900ECA210 /* ServerRent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5927E6429085A6100BD939B /* ScooterView */ = {
+			isa = PBXGroup;
+			children = (
+				A525A75D2908569F00E68AF0 /* ScooterDetailView.swift */,
+			);
+			path = ScooterView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A55182AB28DA2F9900760B2B /* Patinfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55182D028DA2F9C00760B2B /* Build configuration list for PBXNativeTarget "Patinfly" */;
+			buildPhases = (
+				A55182A828DA2F9900760B2B /* Sources */,
+				A55182A928DA2F9900760B2B /* Frameworks */,
+				A55182AA28DA2F9900760B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Patinfly;
+			productName = Patinfly;
+			productReference = A55182AC28DA2F9A00760B2B /* Patinfly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A55182BB28DA2F9C00760B2B /* PatinflyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55182D328DA2F9C00760B2B /* Build configuration list for PBXNativeTarget "PatinflyTests" */;
+			buildPhases = (
+				A55182B828DA2F9C00760B2B /* Sources */,
+				A55182B928DA2F9C00760B2B /* Frameworks */,
+				A55182BA28DA2F9C00760B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55182BE28DA2F9C00760B2B /* PBXTargetDependency */,
+			);
+			name = PatinflyTests;
+			productName = PatinflyTests;
+			productReference = A55182BC28DA2F9C00760B2B /* PatinflyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A55182C528DA2F9C00760B2B /* PatinflyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55182D628DA2F9C00760B2B /* Build configuration list for PBXNativeTarget "PatinflyUITests" */;
+			buildPhases = (
+				A55182C228DA2F9C00760B2B /* Sources */,
+				A55182C328DA2F9C00760B2B /* Frameworks */,
+				A55182C428DA2F9C00760B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55182C828DA2F9C00760B2B /* PBXTargetDependency */,
+			);
+			name = PatinflyUITests;
+			productName = PatinflyUITests;
+			productReference = A55182C628DA2F9C00760B2B /* PatinflyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55182A428DA2F9900760B2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A55182AB28DA2F9900760B2B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A55182BB28DA2F9C00760B2B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A55182AB28DA2F9900760B2B;
+					};
+					A55182C528DA2F9C00760B2B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A55182AB28DA2F9900760B2B;
+					};
+				};
+			};
+			buildConfigurationList = A55182A728DA2F9900760B2B /* Build configuration list for PBXProject "Patinfly" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55182A328DA2F9900760B2B;
+			productRefGroup = A55182AD28DA2F9A00760B2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A55182AB28DA2F9900760B2B /* Patinfly */,
+				A55182BB28DA2F9C00760B2B /* PatinflyTests */,
+				A55182C528DA2F9C00760B2B /* PatinflyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A55182AA28DA2F9900760B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55182B728DA2F9C00760B2B /* Preview Assets.xcassets in Resources */,
+				A546E13328ECB4F900C63031 /* scooters.json in Resources */,
+				A5744B86292D5BE200E00B6E /* LocationTGN.gpx in Resources */,
+				A55182B428DA2F9C00760B2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55182BA28DA2F9C00760B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55182C428DA2F9C00760B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A55182A828DA2F9900760B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57F47A82936857100F020C8 /* ScooterDB.xcdatamodeld in Sources */,
+				A516C692296DE8E900ECA210 /* ServerRent.swift in Sources */,
+				A516C688296DBD4300ECA210 /* Status.swift in Sources */,
+				A51D348E28ECAC53005AB3F4 /* SplashScreen.swift in Sources */,
+				A583B78E28E36F3C000BA110 /* Authentication.swift in Sources */,
+				A55182DD28DA31D400760B2B /* LoginView.swift in Sources */,
+				A5744B81292D478B00E00B6E /* LocationManager.swift in Sources */,
+				A583B78828E3666F000BA110 /* Credentials.swift in Sources */,
+				A546E13528ECB55100C63031 /* Scooter.swift in Sources */,
+				A55182B228DA2F9A00760B2B /* ContentView.swift in Sources */,
+				A583B78A28E36C90000BA110 /* APIService.swift in Sources */,
+				A52339972975482800194079 /* Constant.swift in Sources */,
+				A525A75E2908569F00E68AF0 /* ScooterDetailView.swift in Sources */,
+				A55182B028DA2F9A00760B2B /* PatinflyApp.swift in Sources */,
+				A5D62966296C3E22009E59EA /* ScooterServer.swift in Sources */,
+				A5233995297547DB00194079 /* NetworkError.swift in Sources */,
+				A57F47AA293687BB00F020C8 /* DataController.swift in Sources */,
+				A51D348C28ECA2C8005AB3F4 /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55182B828DA2F9C00760B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55182C128DA2F9C00760B2B /* PatinflyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55182C228DA2F9C00760B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55182CD28DA2F9C00760B2B /* PatinflyUITestsLaunchTests.swift in Sources */,
+				A55182CB28DA2F9C00760B2B /* PatinflyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A55182BE28DA2F9C00760B2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55182AB28DA2F9900760B2B /* Patinfly */;
+			targetProxy = A55182BD28DA2F9C00760B2B /* PBXContainerItemProxy */;
+		};
+		A55182C828DA2F9C00760B2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55182AB28DA2F9900760B2B /* Patinfly */;
+			targetProxy = A55182C728DA2F9C00760B2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A55182CE28DA2F9C00760B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A55182CF28DA2F9C00760B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A55182D128DA2F9C00760B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Patinfly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = 1234;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deim.urv.cat.Patinfly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A55182D228DA2F9C00760B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Patinfly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = 1234;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deim.urv.cat.Patinfly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A55182D428DA2F9C00760B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deim.urv.cat.PatinflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Patinfly.app/Patinfly";
+			};
+			name = Debug;
+		};
+		A55182D528DA2F9C00760B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deim.urv.cat.PatinflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Patinfly.app/Patinfly";
+			};
+			name = Release;
+		};
+		A55182D728DA2F9C00760B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deim.urv.cat.PatinflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Patinfly;
+			};
+			name = Debug;
+		};
+		A55182D828DA2F9C00760B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deim.urv.cat.PatinflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Patinfly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A55182A728DA2F9900760B2B /* Build configuration list for PBXProject "Patinfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55182CE28DA2F9C00760B2B /* Debug */,
+				A55182CF28DA2F9C00760B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55182D028DA2F9C00760B2B /* Build configuration list for PBXNativeTarget "Patinfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55182D128DA2F9C00760B2B /* Debug */,
+				A55182D228DA2F9C00760B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55182D328DA2F9C00760B2B /* Build configuration list for PBXNativeTarget "PatinflyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55182D428DA2F9C00760B2B /* Debug */,
+				A55182D528DA2F9C00760B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55182D628DA2F9C00760B2B /* Build configuration list for PBXNativeTarget "PatinflyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55182D728DA2F9C00760B2B /* Debug */,
+				A55182D828DA2F9C00760B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A57F47A62936857100F020C8 /* ScooterDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A57F47A72936857100F020C8 /* Scooter_Rent.xcdatamodel */,
+			);
+			currentVersion = A57F47A72936857100F020C8 /* Scooter_Rent.xcdatamodel */;
+			path = ScooterDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A55182A428DA2F9900760B2B /* Project object */;
+}
